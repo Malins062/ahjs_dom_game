@@ -1,3 +1,19 @@
 body {
     color: #999;
 }
+
+.game {
+    border: black;
+}
+
+.field {
+    padding: 5px;
+}
+
+.hero {
+    background-color: antiquewhite;
+}
+ 
+.hero__active {
+    background-color: greenyellow;
+}

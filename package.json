@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
-    "lint": "eslint",
+    "lint": "eslint .",
     "test": "jest",
     "coverage": "jest --coverage",
     "doc": "jsdoc -c jsdoc.conf.json",
@@ -19,18 +19,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Malins062/ahjs_dom_game.git"
+    "url": "git+https://github.com/Malins062/ahjs_enviroment.git"
   },
   "keywords": [
-    "dom", 
+    "dom",
     "game"
   ],
   "author": "Alexei Malinovskiy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Malins062/ahjs_dom_game/issues"
+    "url": "https://github.com/Malins062/ahjs_enviroment/issues"
   },
-  "homepage": "https://github.com/Malins062/ahjs_dom_game#readme",
+  "homepage": "https://github.com/Malins062/ahjs_enviroment#readme",
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
