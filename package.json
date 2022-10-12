@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
-    "lint": "eslint .",
+    "lint": "eslint",
     "test": "jest",
     "coverage": "jest --coverage",
     "doc": "jsdoc -c jsdoc.conf.json",
@@ -22,7 +22,8 @@
     "url": "git+https://github.com/Malins062/ahjs_dom_game.git"
   },
   "keywords": [
-    "dom"
+    "dom", 
+    "game"
   ],
   "author": "Alexei Malinovskiy",
   "license": "MIT",
