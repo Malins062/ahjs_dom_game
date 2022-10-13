@@ -1,4 +1,4 @@
-import FieldsWidge from './fields-widget';
+import FieldsWidget from 'fields-widget.js';
 
 /* eslint-disable no-alert */
 const COUNT_FIELDS = 16; // Количество игровых полей
