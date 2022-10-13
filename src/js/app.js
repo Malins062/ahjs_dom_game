@@ -1,8 +1,7 @@
-// const unusedVariable = 'variable';
+console.log('Game loaded...');
 
-// for demonstration purpose only
-export default function demo(value) {
-  return value;
-}
+const titleGame = document.querySelector('.title');
 
-console.log('app.js included');  // eslint-disable-line
+titleGame.addEventListener('click', () => {
+  console.log('Game start..');  // eslint-disable-line  
+});
