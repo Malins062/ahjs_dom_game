@@ -54,3 +54,8 @@ body {
     background-image: url('../img/goblin.png');
     cursor: grab;
 } 
+
+.playing_field > div.el.active.dead {
+    background-color: red;
+    cursor: pointer;
+} 

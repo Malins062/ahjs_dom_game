@@ -1,0 +1,19 @@
+export default class FieldsWidget {
+  constructor(elements) {
+    this._elements = elements;
+  }
+
+  get allElements() {
+    return this._elements;
+  }
+
+  deactivateField() {
+    const activateField = this._elements.querySelect('.active');
+    activateField.classList.remove('active');
+  }
+
+  activateField(numField) {
+    const newActiveField = this._elements.querySelector(`[id=${numField}]`);
+    newActiveField.classList.add('active');
+  }
+}
