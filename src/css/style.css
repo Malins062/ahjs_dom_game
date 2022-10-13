@@ -52,35 +52,5 @@ body {
 
 .playing_field > div.el.active {
     background-image: url('../img/goblin.png');
+    cursor: grab;
 } 
-
-/* .table_game {
-    width: 100%; 
-    display: flex; 
-    flex-direction: row; 
-    flex-wrap: wrap; 
-}
-
-.table_game > div.field {
-    width: 25%; 
-    height: 25vw; 
-    border: 1px solid white;
-    background-color: darkkhaki;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    /* float:left;
-    position: relative;
-    width: 20%;
-    padding-bottom : 15%; 
-    margin: 0.5%;
-    background-color: darkkhaki;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    border: 1px solid black; */
-/* } */
-
-/* .table_game > div.field.active {
-    background-image: url('../img/goblin.png');
-} */ 
