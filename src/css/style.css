@@ -38,6 +38,12 @@ body {
     height: calc(90vw - 20px);
     max-width: calc(90vw - 20px);
     max-height: calc(90vh - 20px);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
 }
 
 
