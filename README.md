@@ -1,5 +1,7 @@
 # Домашнее задание к занятию "2. DOM"
 
+[![Build status](https://ci.appveyor.com/api/projects/status/ore5x7wmqweyt6ek/branch/main?svg=true)](https://ci.appveyor.com/project/Malins062/ahjs-dom-game/branch/main)
+
 Правила сдачи задания:
 
 1. **Важно**: в рамках этого ДЗ можно использовать любой менеджер пакетов

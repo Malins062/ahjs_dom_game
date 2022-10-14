@@ -7,6 +7,7 @@ console.log('Game loaded...');
 
 const titleGame = document.querySelector('.title');
 let playing = false;
+let activeField = 0;
 
 titleGame.addEventListener('click', () => {
   if (!playing) {
@@ -34,8 +35,13 @@ titleGame.addEventListener('click', () => {
       // Удаление из поля гоблина
       widget.deactivateField();
 
-      // Вывод гоблина в новом поле
-      widget.activateField(Math.floor(1 + Math.random() * COUNT_FIELDS));
+      // Вывод гоблина в новом поле    
+      let newField;  
+      do {
+        newField = Math.floor(1 + Math.random() * COUNT_FIELDS);
+      } while (activeField == newField)
+      activeField = newField;
+      widget.activateField(activeField);
     }, 1000);
   } else {
     alert('Игра уже запущена!');
